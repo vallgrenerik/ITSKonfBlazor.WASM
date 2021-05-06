@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\ITSKonfBlazor.WASM.Components\ITSKonfBlazor.WASM.Components.csproj" />
     <ProjectReference Include="..\Shared\ITSKonfBlazor.WASM.Shared.csproj" />
   </ItemGroup>
 
