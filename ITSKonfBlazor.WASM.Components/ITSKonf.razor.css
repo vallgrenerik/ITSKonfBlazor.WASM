@@ -4,3 +4,10 @@
     margin: 1em 0;
     background-image: url('background.png');
 }
+h1 {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+img {
+	max-width: 300px;
+	display: block;
+}

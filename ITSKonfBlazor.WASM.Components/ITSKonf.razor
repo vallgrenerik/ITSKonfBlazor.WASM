@@ -1,3 +1,25 @@
-﻿<div class="my-component">
-    This Blazor component is defined in the <strong>ITSKonfBlazor.WASM.Components</strong> library.
+﻿@using Microsoft.JSInterop
+<div class="my-component">
+	<h1>Many wow!</h1>
+	<img src="@(ImgPath("meme.jpg"))" />
+	<br/>
+	<button @onclick="ClickForJSInterop">Klicka för javascript interop</button>
 </div>
+@code {
+	
+	[Inject] IJSRuntime Js { get; set; }
+
+	private string ImgPath(string filename)
+	{
+		return $"/_content/ITSKonfBlazor.WASM.Components/images/{filename}";
+	}
+
+	private async Task ClickForJSInterop()
+	{
+		var temp = new ExampleJsInterop(Js);
+		var prompt = await temp.Prompt("Skriv något och kolla i konsollen");
+		Console.WriteLine(prompt);
+	}
+
+}
+
