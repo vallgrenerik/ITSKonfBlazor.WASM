@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSKonfBlazor.WASM.Client",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSKonfBlazor.WASM.Shared", "ITSKonfBlazor.WASM\Shared\ITSKonfBlazor.WASM.Shared.csproj", "{99D9B622-523B-4092-A3F7-D4D58E7E704A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSKonfBlazor.WASM.Components", "ITSKonfBlazor.WASM.Components\ITSKonfBlazor.WASM.Components.csproj", "{3233645F-E5E5-476F-AEA3-FEA815F76DB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{99D9B622-523B-4092-A3F7-D4D58E7E704A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99D9B622-523B-4092-A3F7-D4D58E7E704A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99D9B622-523B-4092-A3F7-D4D58E7E704A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3233645F-E5E5-476F-AEA3-FEA815F76DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3233645F-E5E5-476F-AEA3-FEA815F76DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3233645F-E5E5-476F-AEA3-FEA815F76DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3233645F-E5E5-476F-AEA3-FEA815F76DB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
